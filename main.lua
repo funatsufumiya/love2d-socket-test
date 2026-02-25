@@ -14,7 +14,7 @@ while true do
     -- make sure we don't block waiting for this client's line
     client:settimeout(10)
     for i = 1, 3 do
-        client:send("> ")
+        client:send("\r> ")
         -- receive the line
         local line, err = client:receive()
         -- if there was no error, send it back to the client
