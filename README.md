@@ -1,11 +1,18 @@
 # love2d-socket-test
 
-telnet echo server
+telnet echo server on Love2D / LoVR
 
 ## Usage
 
 ```bash
 $ love --console .
+
+# or
+
+$ lovr --console .
+
+# NOTE: this lovr should have been built with lovr-luasocket plugin.
+#       see Dependencies fore more.
 ```
 
 ```bash
