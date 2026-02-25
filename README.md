@@ -34,6 +34,8 @@ Echo end. closed.
 
 ### LoVR Plugins
 
-NOTE: Check [Plugins](https://lovr.org/docs/Plugins) how to use them.
+***NOTE***: Check [Plugins](https://lovr.org/docs/Plugins) how to use them.
 
 - [lovr-luasocket](https://github.com/brainrom/lovr-luasocket)
+
+Prebuilt LoVR executables (including lovr-luasocket) can be get from [Releases](https://github.com/funatsufumiya/love2d-socket-test/releases) page.
