@@ -39,3 +39,16 @@ Echo end. closed.
 - [lovr-luasocket](https://github.com/brainrom/lovr-luasocket)
 
 Prebuilt LoVR executables (including lovr-luasocket) can be get from [Releases](https://github.com/funatsufumiya/love2d-socket-test/releases) page.
+
+#### How to build
+
+```bash
+$ git clone --recursive https://github.com/bjornbytes/lovr -b v0.18.0
+$ cd lovr
+$ git submodule add https://github.com/brainrom/lovr-luasocket plugins/lovr-luasocket
+$ cd plugins/lovr-luasocket
+$ git submodule update --init --recursive
+$ cd ../..
+$ cmake -B build -DCMAKE_POLICY_VERSION_MINIMUM=3.5 -DLOVR_BUILD_BUNDLE=ON
+$ cmake --build build --parallel 8 -j 8 --config Release
+```
