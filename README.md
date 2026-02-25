@@ -40,7 +40,7 @@ Echo end. closed.
 
 Prebuilt LoVR executables (including lovr-luasocket) can be get from [Releases](https://github.com/funatsufumiya/love2d-socket-test/releases) page.
 
-#### How to build
+#### How to build (LoVR)
 
 ```bash
 $ git clone --recursive https://github.com/bjornbytes/lovr -b v0.18.0
