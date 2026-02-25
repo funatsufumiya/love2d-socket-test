@@ -19,6 +19,7 @@ else
         -- make sure we don't block waiting for this client's line
         client:settimeout(10)
         for i = 1, 3 do
+            client:send("> ")
             -- receive the line
             local line, err = client:receive()
             -- if there was no error, send it back to the client
@@ -27,7 +28,8 @@ else
                 -- client:close()
         end
 
+        client:send("Echo end. closed.")
         client:close()
-        print("Closed")
+        print("Closed. Waiting next client.")
     end
 end
