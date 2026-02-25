@@ -22,3 +22,11 @@ hoge
 fuga
 Echo end. closed.
 ```
+
+## Dependencies
+
+### LoVR Plugins
+
+NOTE: Check [Plugins](https://lovr.org/docs/Plugins) how to use them.
+
+- [lovr-luasocket](https://github.com/brainrom/lovr-luasocket)
